@@ -26,10 +26,11 @@ short libct_vitals_t::diastolic
 Diastolic measurement.
 
 ## Plan
-connect caretaker via blutooth
+connect caretaker via blutooth to ardunio/raspberry pi
 find above values
 if(valid && bp_status):
 	voltage = (systolic - diastolic) * conversionFactor
-	send voltage to arduino via serial
+	output voltage to BnC cable.
 else:
 	handle/send error
+
