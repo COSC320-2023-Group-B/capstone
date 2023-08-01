@@ -6,4 +6,4 @@ CFLAGS="-Wall -Wextra -pedantic"
 
 g++ $CFLAGS -o ./build/main.exe ./src/main.cpp
 
-exit 0
+# Stray Symbol: 

@@ -3021,4 +3021,3 @@ LIBCTEXPORT int LIBCTAPI libct_rd_persistent_log(libct_context_t* context);
 }
 #endif
 #endif /* LIBCT_CARETAKER_H */
-
