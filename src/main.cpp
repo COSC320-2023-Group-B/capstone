@@ -12,7 +12,6 @@ int main(int argc, char const *argv[]) {
 
     libct_context_t* context = NULL;
 
-    //smth here stops it compiling
     // int status = libct_init(&context, &init_data, &callbacks);
     // if (LIBCT_FAILED(status)) {
     //     // handle error
