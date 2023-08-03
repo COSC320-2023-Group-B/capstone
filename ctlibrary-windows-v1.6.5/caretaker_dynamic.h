@@ -544,10 +544,10 @@ typedef struct libct_vitals2_t  {
     float pr;
     /** Reserved for future use */
     int reserved[7];
-ECHO is off.
+// ECHO is off.
     /** Time stamp from the device associated with the data. */
     unsigned int timestamp;
-ECHO is off.
+// ECHO is off.
 } libct_vitals2_t;
 /**
  * \class libct_pulse_t
@@ -2166,7 +2166,7 @@ typedef struct libct_app_callbacks_t {
 		const char* log,
 		unsigned int len,
 		int status);
-ECHO is off.
+// ECHO is off.
 } libct_app_callbacks_t;
 /**
 * \ingroup unmanaged_device

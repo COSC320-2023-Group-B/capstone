@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "../ctlibrary-windows-v1.6.5/caretaker_static.h"
-// #include "../ctlibrary-windows-v1.6.5/Win64/libcaretaker_static.lib"
+#include "./ctlibrary-windows-v1.6.5/caretaker_static.h"
 
-int main(int argc, char const *argv[]) {
+// add args later if we need them
+int main() {
     libct_init_data_t init_data = {0};
 
     init_data.device_class = LIBCT_DEVICE_CLASS_BLE_CARETAKER4;
