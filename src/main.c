@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "./ctlibrary-windows-v1.6.5/caretaker_dynamic.h"
+#include "../ctlibrary-windows-v1.6.5/caretaker_dynamic.h"
 
 typedef int (LIBCTAPI* LP_LIBCT_INIT)(libct_context_t**,libct_init_data_t*, libct_app_callbacks_t*);
 typedef void (LIBCTAPI* LP_LIBCT_DEINIT)(libct_context_t*);
@@ -30,7 +30,7 @@ int main() {
 
     printf("loading library\n");
     // might not be working because LoadLibrary expects WORD16 const or something
-    hDLL = LoadLibrary("./ctlibrary-windows-v1.6.5/Win64/libcaretaker_dynamic.dll");
+    hDLL = LoadLibrary("../ctlibrary-windows-v1.6.5/Win64/libcaretaker_dynamic.dll");
 
     if (hDLL != NULL) {
         printf("loaded library successfully!!!!!!\n");

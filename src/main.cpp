@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "./ctlibrary-windows-v1.6.5/caretaker_static.h"
+#include "../ctlibrary-windows-v1.6.5/caretaker_static.h"
 
 // add args later if we need them
 int main() {
