@@ -2,8 +2,16 @@
 # build folder
 /build
 
-# vscode stuff
+# vscode
 /.vscode
+
+# Visual Studio
+/x64
+/Debug
+cosc320 Capstone.sln
+cosc320 Capstone.vcxproj
+cosc320 Capstone.vcxproj.filters
+cosc320 Capstone.vcxproj.user
 
 # for the ctlibrary example project
 /ctlibrary-windows-v1.6.5/examples
